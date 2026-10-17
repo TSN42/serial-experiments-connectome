@@ -1,0 +1,9 @@
+w_scale,R 局在（無作為刺激の活動 < 1000）,T1 糖→MN9 / 苦味で抑制,T2 JO-C/E→グルーミング DN（選択的）,T3a GF→TTMn 1:1・<1.5 ms（ギャップ有）,T3b 化学シナプスだけでは速い 1:1 にならない,T3c GF が飽和しない（LPLC2 30 Hz で < 100 Hz）,T4 DNg100→脚 MN リズム（4–20 Hz・交代あり）,T5 P1 相当→pIP10,_random_active,_MN9_sugar,_GF30,_flex_ext,_peak_ratio,_peak_hz
+0.44,True,False,False,True,True,False,False,True,32.0,0.0,101.0,,,
+0.6,True,False,False,True,True,False,False,True,42.0,0.0,214.66666666666669,,,
+0.8,True,False,False,True,True,False,False,True,84.0,0.0,359.5,-0.0394545201677359,7.511133025656536,7.2
+1.0,True,False,True,True,True,False,False,True,164.0,0.0,403.1666666666666,0.057241957948705,7.849323637304989,7.2
+1.3,True,False,True,False,True,False,False,True,362.0,0.0,397.33333333333337,-0.0142782222122108,52.48377117304407,2.0
+1.6,False,False,True,False,True,False,True,False,6237.0,10.666666666666666,270.0,-0.4968634672933236,10.588778722823148,17.6
+2.0,False,False,True,False,True,False,False,False,19886.0,29.666666666666668,234.3333333333333,0.342209263180704,12.651750470083762,2.4000000000000004
+2.6,False,False,True,False,True,False,False,False,36690.0,72.0,230.5,-0.2780592201736104,71.49027932324242,3.2

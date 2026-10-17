@@ -76,8 +76,8 @@ def fig_lr():
     ps.save(fig, FIG / "fig2_lr_asymmetry.png")
 
 
-def heatmap(ax, mat, fmt, cmap, label):
-    im = ax.imshow(mat.to_numpy(), cmap=cmap, aspect="auto")
+def heatmap(ax, mat, fmt, cmap, label, reverse=False):
+    im = ax.imshow(mat.to_numpy(), cmap=cmap.reversed() if reverse else cmap, aspect="auto")
     ax.set_xticks(range(mat.shape[1]), mat.columns, rotation=40, ha="right")
     ax.set_yticks(range(mat.shape[0]), mat.index)
     ax.grid(False)
@@ -87,7 +87,8 @@ def heatmap(ax, mat, fmt, cmap, label):
         for j in range(mat.shape[1]):
             v = vals[i, j]
             if np.isfinite(v):
-                dark = (v - lo) / (hi - lo + 1e-12) > 0.55
+                x = (v - lo) / (hi - lo + 1e-12)
+                dark = (1 - x if reverse else x) > 0.55
                 ax.text(j, i, fmt(v), ha="center", va="center", fontsize=7, color="white" if dark else ps.TEXT)
     cb = plt.colorbar(im, ax=ax, fraction=0.03, pad=0.02)
     cb.set_label(label)
@@ -103,10 +104,10 @@ def fig_sensory_effector():
     u = inf[~inf.signed & (inf.lam == 0.5)].pivot(index="sensory", columns="effector", values="mean").loc[order_s, order_e]
     m2 = np.log10(u.clip(lower=1e-30))
     fig, axes = plt.subplots(1, 2, figsize=(15, 5.4))
-    heatmap(axes[0], m1, lambda v: f"{v:.1f}", ps.SEQ, "到達ステップ（中央値）")
-    axes[0].set_title("確率的走査：感覚から何ステップで届くか（小さいほど近い）")
+    heatmap(axes[0], m1, lambda v: f"{v:.1f}", ps.SEQ, "到達ステップ（中央値）", reverse=True)
+    axes[0].set_title("確率的走査：感覚から何ステップで届くか（濃いほど近い）")
     heatmap(axes[1], m2, lambda v: f"{v:.1f}", ps.SEQ, "log10 影響度（種 1 細胞あたり、群平均）")
-    axes[1].set_title("線形影響度（BANC 方式、符号なし、λ=0.5）")
+    axes[1].set_title("線形影響度（BANC 方式、符号なし、λ=0.5、濃いほど強い）")
     axes[1].set_yticklabels([])
     fig.tight_layout()
     ps.save(fig, FIG / "fig3_sensory_to_effector.png")

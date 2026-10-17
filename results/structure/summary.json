@@ -79,12 +79,56 @@
     "descending neurons": 1314,
     "endocrine": 94
   },
-  "leading_eigenvalue_unsigned_min5": [
-    5454.452874135489,
-    0.0
-  ],
-  "leading_eigenvalue_signed_min5": [
-    3748.768837946921,
-    0.0
-  ]
+  "leading_mode_unsigned_min5": {
+    "eigenvalue": [
+      5454.452864049862,
+      0.0
+    ],
+    "participation_ratio": 52.618699394556415,
+    "top_types": {
+      "lLN1_bc": 5,
+      "lLN2F_b": 2,
+      "lLN2F_a": 2,
+      "lLN2T_c": 2,
+      "lLN2T_a": 2,
+      "v2LN30": 1,
+      "il3LN6": 1,
+      "lLN2T_b": 1,
+      "lLN2P_c": 1,
+      "DP1m_adPN": 1,
+      "lLN2P_a": 1,
+      "lLN2X04": 1
+    },
+    "mass_by_superclass": {
+      "cb_intrinsic": 0.9909,
+      "cb_sensory": 0.0083,
+      "descending_neuron": 0.0008,
+      "cb_efferent": 0.0,
+      "ascending_neuron": 0.0
+    }
+  },
+  "influence_profile_mean_corr_unsigned_lam0.99": 0.9397955246322228,
+  "influence_profile_mean_corr_unsigned_lam0.5": 0.8864101799101706,
+  "leading_mode_signed_min5": {
+    "eigenvalue": [
+      3748.768835340802,
+      0.0
+    ],
+    "participation_ratio": 43.85418413536661,
+    "top_types": {
+      "lLN1_bc": 16,
+      "lLN2T_a": 2,
+      "v2LN30": 1,
+      "lLN1_a": 1
+    },
+    "mass_by_superclass": {
+      "cb_intrinsic": 0.9988,
+      "cb_sensory": 0.0009,
+      "descending_neuron": 0.0002,
+      "cb_efferent": 0.0,
+      "ascending_neuron": 0.0
+    }
+  },
+  "influence_profile_mean_corr_signed_lam0.99": 0.8735741375246934,
+  "influence_profile_mean_corr_signed_lam0.5": 0.8306329854111519
 }
