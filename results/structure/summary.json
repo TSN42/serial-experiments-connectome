@@ -1,0 +1,90 @@
+{
+  "neurons": 166700,
+  "edges": 25582938,
+  "synapses": 124177617,
+  "nt_counts": {
+    "acetylcholine": 104042,
+    "glutamate": 29622,
+    "gaba": 22122,
+    "histamine": 7905,
+    "unknown": 2070,
+    "serotonin": 404,
+    "dopamine": 395,
+    "octopamine": 140
+  },
+  "nt_source": {
+    "ground_truth": 85484,
+    "consensus": 78039,
+    "none": 2070,
+    "neuron": 780,
+    "celltype": 327
+  },
+  "median_inh_input_fraction": 0.4426293048672004,
+  "synapses_per_edge": {
+    "50": 2.0,
+    "90": 10.0,
+    "99": 46.0
+  },
+  "edges_ge5_fraction": 0.24399535346565746,
+  "synapses_on_edges_ge5_fraction": 0.7236431344950033,
+  "lr_types": 11281,
+  "lr_flagged_2x": 211,
+  "lr_flagged_by_superclass": {
+    "ascending_neuron": 0.006,
+    "cb_efferent": 0.0,
+    "cb_endocrine": 0.1,
+    "cb_intrinsic": 0.01,
+    "cb_motor": 0.326,
+    "cb_sensory": 0.185,
+    "descending_neuron": 0.034,
+    "efferent_ascending": 0.0,
+    "efferent_descending": 1.0,
+    "ol_intrinsic": 0.016,
+    "ol_sensory": 0.0,
+    "sensory_ascending": 0.036,
+    "sensory_descending": 0.0,
+    "visual_centrifugal": 0.0,
+    "visual_projection": 0.003,
+    "vnc_efferent": 0.0,
+    "vnc_endocrine": 0.0,
+    "vnc_intrinsic": 0.026,
+    "vnc_motor": 0.072,
+    "vnc_sensory": 0.013
+  },
+  "sensory_group_sizes": {
+    "photoreceptors": 6091,
+    "olfactory ORN": 2635,
+    "taste: sugar": 34,
+    "taste: bitter": 38,
+    "taste: water": 17,
+    "JO auditory (A/B)": 138,
+    "JO wind/gravity (C/E)": 335,
+    "leg chordotonal": 392,
+    "campaniform (all)": 426,
+    "leg touch bristles": 1877,
+    "haltere": 205,
+    "thermo": 25,
+    "hygro": 66
+  },
+  "effector_group_sizes": {
+    "MN front leg": 135,
+    "MN mid leg": 116,
+    "MN hind leg": 130,
+    "MN wing": 67,
+    "MN haltere": 16,
+    "MN neck": 44,
+    "MN proboscis/pharynx": 67,
+    "MN antenna": 13,
+    "MN abdomen": 214,
+    "descending neurons": 1314,
+    "endocrine": 94
+  },
+  "leading_eigenvalue_unsigned_min5": [
+    5454.452874135489,
+    0.0
+  ],
+  "leading_eigenvalue_signed_min5": [
+    3748.768837946921,
+    0.0
+  ]
+}

@@ -1,0 +1,144 @@
+sensory,effector,median_layer,reached_frac
+photoreceptors,MN front leg,6.875,1.0
+photoreceptors,MN mid leg,6.84375,1.0
+photoreceptors,MN hind leg,6.890625,1.0
+photoreceptors,MN wing,6.515625,1.0
+photoreceptors,MN haltere,6.40625,1.0
+photoreceptors,MN neck,5.953125,1.0
+photoreceptors,MN proboscis/pharynx,7.34375,1.0
+photoreceptors,MN antenna,5.890625,1.0
+photoreceptors,MN abdomen,6.9375,1.0
+photoreceptors,descending neurons,5.671875,1.0
+photoreceptors,endocrine,6.3671875,0.9574468085106383
+olfactory ORN,MN front leg,5.828125,1.0
+olfactory ORN,MN mid leg,6.0703125,1.0
+olfactory ORN,MN hind leg,6.1328125,1.0
+olfactory ORN,MN wing,6.078125,1.0
+olfactory ORN,MN haltere,6.1484375,1.0
+olfactory ORN,MN neck,5.6875,1.0
+olfactory ORN,MN proboscis/pharynx,5.59375,1.0
+olfactory ORN,MN antenna,5.21875,1.0
+olfactory ORN,MN abdomen,6.171875,1.0
+olfactory ORN,descending neurons,5.3125,1.0
+olfactory ORN,endocrine,5.0703125,0.9574468085106383
+taste: sugar,MN front leg,6.015625,1.0
+taste: sugar,MN mid leg,6.4375,1.0
+taste: sugar,MN hind leg,6.453125,1.0
+taste: sugar,MN wing,6.84375,1.0
+taste: sugar,MN haltere,6.9921875,1.0
+taste: sugar,MN neck,6.0546875,1.0
+taste: sugar,MN proboscis/pharynx,4.390625,1.0
+taste: sugar,MN antenna,6.171875,1.0
+taste: sugar,MN abdomen,6.484375,1.0
+taste: sugar,descending neurons,6.5625,1.0
+taste: sugar,endocrine,5.5625,0.9574468085106383
+taste: bitter,MN front leg,5.96875,1.0
+taste: bitter,MN mid leg,6.3046875,1.0
+taste: bitter,MN hind leg,6.3125,1.0
+taste: bitter,MN wing,6.5625,1.0
+taste: bitter,MN haltere,6.828125,1.0
+taste: bitter,MN neck,6.203125,1.0
+taste: bitter,MN proboscis/pharynx,4.5,1.0
+taste: bitter,MN antenna,6.0625,1.0
+taste: bitter,MN abdomen,6.078125,1.0
+taste: bitter,descending neurons,6.21875,1.0
+taste: bitter,endocrine,4.890625,0.9574468085106383
+taste: water,MN front leg,6.484375,1.0
+taste: water,MN mid leg,6.828125,1.0
+taste: water,MN hind leg,6.890625,1.0
+taste: water,MN wing,7.203125,1.0
+taste: water,MN haltere,7.375,1.0
+taste: water,MN neck,6.671875,1.0
+taste: water,MN proboscis/pharynx,5.0,1.0
+taste: water,MN antenna,6.65625,1.0
+taste: water,MN abdomen,6.859375,1.0
+taste: water,descending neurons,6.984375,1.0
+taste: water,endocrine,5.8359375,0.9574468085106383
+JO auditory (A/B),MN front leg,5.734375,1.0
+JO auditory (A/B),MN mid leg,5.75,1.0
+JO auditory (A/B),MN hind leg,5.78125,1.0
+JO auditory (A/B),MN wing,5.484375,1.0
+JO auditory (A/B),MN haltere,5.265625,1.0
+JO auditory (A/B),MN neck,5.1484375,1.0
+JO auditory (A/B),MN proboscis/pharynx,6.125,1.0
+JO auditory (A/B),MN antenna,4.71875,1.0
+JO auditory (A/B),MN abdomen,6.1875,1.0
+JO auditory (A/B),descending neurons,5.171875,1.0
+JO auditory (A/B),endocrine,6.578125,0.9574468085106383
+JO wind/gravity (C/E),MN front leg,5.0625,1.0
+JO wind/gravity (C/E),MN mid leg,5.1171875,1.0
+JO wind/gravity (C/E),MN hind leg,5.1484375,1.0
+JO wind/gravity (C/E),MN wing,4.3125,1.0
+JO wind/gravity (C/E),MN haltere,3.9375,1.0
+JO wind/gravity (C/E),MN neck,3.9609375,1.0
+JO wind/gravity (C/E),MN proboscis/pharynx,5.578125,1.0
+JO wind/gravity (C/E),MN antenna,3.890625,1.0
+JO wind/gravity (C/E),MN abdomen,5.484375,1.0
+JO wind/gravity (C/E),descending neurons,4.2265625,1.0
+JO wind/gravity (C/E),endocrine,6.046875,0.9574468085106383
+leg chordotonal,MN front leg,4.25,1.0
+leg chordotonal,MN mid leg,3.421875,1.0
+leg chordotonal,MN hind leg,3.40625,1.0
+leg chordotonal,MN wing,4.6875,1.0
+leg chordotonal,MN haltere,4.7734375,1.0
+leg chordotonal,MN neck,4.84375,1.0
+leg chordotonal,MN proboscis/pharynx,5.53125,1.0
+leg chordotonal,MN antenna,4.78125,1.0
+leg chordotonal,MN abdomen,4.84375,1.0
+leg chordotonal,descending neurons,4.890625,1.0
+leg chordotonal,endocrine,6.140625,0.9574468085106383
+campaniform (all),MN front leg,4.3125,1.0
+campaniform (all),MN mid leg,3.953125,1.0
+campaniform (all),MN hind leg,3.9296875,1.0
+campaniform (all),MN wing,2.40625,1.0
+campaniform (all),MN haltere,2.5703125,1.0
+campaniform (all),MN neck,2.5625,1.0
+campaniform (all),MN proboscis/pharynx,5.21875,1.0
+campaniform (all),MN antenna,3.4375,1.0
+campaniform (all),MN abdomen,4.0859375,1.0
+campaniform (all),descending neurons,3.796875,1.0
+campaniform (all),endocrine,4.8203125,0.9574468085106383
+leg touch bristles,MN front leg,3.296875,1.0
+leg touch bristles,MN mid leg,2.6875,1.0
+leg touch bristles,MN hind leg,2.78125,1.0
+leg touch bristles,MN wing,3.921875,1.0
+leg touch bristles,MN haltere,3.765625,1.0
+leg touch bristles,MN neck,4.3671875,1.0
+leg touch bristles,MN proboscis/pharynx,4.4375,1.0
+leg touch bristles,MN antenna,4.0625,1.0
+leg touch bristles,MN abdomen,3.78125,1.0
+leg touch bristles,descending neurons,4.40625,1.0
+leg touch bristles,endocrine,5.0234375,0.9574468085106383
+haltere,MN front leg,5.046875,1.0
+haltere,MN mid leg,4.7890625,1.0
+haltere,MN hind leg,4.671875,1.0
+haltere,MN wing,3.484375,1.0
+haltere,MN haltere,2.59375,1.0
+haltere,MN neck,2.9296875,1.0
+haltere,MN proboscis/pharynx,5.390625,1.0
+haltere,MN antenna,4.09375,1.0
+haltere,MN abdomen,4.21875,1.0
+haltere,descending neurons,4.4375,1.0
+haltere,endocrine,3.8359375,0.9574468085106383
+thermo,MN front leg,6.734375,1.0
+thermo,MN mid leg,6.84375,1.0
+thermo,MN hind leg,6.859375,1.0
+thermo,MN wing,6.734375,1.0
+thermo,MN haltere,6.734375,1.0
+thermo,MN neck,6.5625,1.0
+thermo,MN proboscis/pharynx,6.65625,1.0
+thermo,MN antenna,6.25,1.0
+thermo,MN abdomen,6.890625,1.0
+thermo,descending neurons,6.109375,1.0
+thermo,endocrine,5.8984375,0.9574468085106383
+hygro,MN front leg,6.640625,1.0
+hygro,MN mid leg,6.671875,1.0
+hygro,MN hind leg,6.6875,1.0
+hygro,MN wing,6.625,1.0
+hygro,MN haltere,6.6953125,1.0
+hygro,MN neck,6.53125,1.0
+hygro,MN proboscis/pharynx,6.1875,1.0
+hygro,MN antenna,6.21875,1.0
+hygro,MN abdomen,6.6171875,1.0
+hygro,descending neurons,6.046875,1.0
+hygro,endocrine,5.625,0.9574468085106383

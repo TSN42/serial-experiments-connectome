@@ -8,29 +8,17 @@
 """
 import argparse
 import re
-import urllib.request
+import sys
 from pathlib import Path
 
 import pandas as pd
 
-BASE = "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/"
-FILES = {
-    "ann": "body-annotations-male-cns-v1.0-minconf-0.5.feather",
-    "nt": "body-neurotransmitters-male-cns-v1.0.feather",
-    "w": "connectome-weights-male-cns-v1.0-minconf-0.5.feather",
-}
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from secon.data import fetch  # noqa: E402
+
 # 筋名で命名された運動ニューロン (例: "Ti flexor MN", "DLMn c-f", "b1 MN")。"MNhl64" のような系統名は除外
 MUSCLE_NAMED = re.compile(r"(?:MN$|MN |Mn|MNs)")
 SYSTEMATIC = re.compile(r"^MN[a-z]{2}\d+")
-
-
-def fetch(key, data_dir):
-    path = data_dir / FILES[key]
-    if not path.exists():
-        data_dir.mkdir(parents=True, exist_ok=True)
-        print(f"downloading {FILES[key]} ...")
-        urllib.request.urlretrieve(BASE + FILES[key], path)
-    return path
 
 
 def section(title):

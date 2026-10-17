@@ -2,3 +2,6 @@
 __pycache__/
 *.pyc
 .venv/
+results/**/*.npy
+results/**/*.parquet
+results/*.log
