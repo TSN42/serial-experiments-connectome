@@ -5,6 +5,7 @@
 ## ドキュメント
 - [docs/01_survey_landscape.md](docs/01_survey_landscape.md) — 調査報告 #01。データ・モデル・ライブラリと、それぞれの解剖学的な正しさ
 - [docs/02_malecns_deep_dive.md](docs/02_malecns_deep_dive.md) — 調査報告 #02。MaleCNS の構造解析と全中枢 LIF の検証、公開後に出てきた道具、正しい扱い方、LIF か HH か
+- [docs/03_who_runs_it_right.md](docs/03_who_runs_it_right.md) — 調査報告 #03。MaleCNS／ハエ全脳コネクトームを「正しく」動かせているのは誰か。検証のはしご、成功例の共通点、問題点、推奨する方法
 
 ## コード
 ```
